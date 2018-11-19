@@ -9,7 +9,7 @@ Usage:
     * The `<remote>` is the URL of the GitHub repository to push to; for example, `https://github.com/williamlu2015/Gii.git`.
     * Specifying the remote is optional. If you do specify it, it must be at the end of the arguments list and directly preceded by the "-r" flag.
 
-When it starts running, the script detects if the current working directory already has a ".git" folder, and stops immediately if so. **Future: Make the script detect an existing .gitignore file.**
+When it starts running, the script detects if the current working directory has already been initialized as a Git repository, and stops immediately if so. **Future: Make the script detect an existing .gitignore file.**
 
 The script executes the following tasks:
 * Initializes a new Git repository.
