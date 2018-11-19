@@ -73,6 +73,7 @@ def _populate_gitignore(templates):
     for template in templates:
         metadata = _lookup(template, root_contents, global_contents)
         if metadata is None:
+            print(f"WARNING: {template} is an invalid template name")
             continue
 
         with open(".gitignore", "a") as gitignore:
