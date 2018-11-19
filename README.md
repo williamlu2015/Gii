@@ -4,10 +4,10 @@ A Python script to automate the process of initializing a Git repository so you 
 Usage:
 * First, add `main.py` to your PATH environment variable; call it `gii`.
 * Then, run `gii [<template>]* [-r <remote>]
-  ** A `<template>` is a programming language or environment that you want to add GitHub's .gitignore template for; for example, `python`, `jetbrains`, or `macos`.
-  ** You may specify an arbitrary number of templates, or none at all. Use space delimiting.
-  ** The `<remote>` is the URL of the GitHub repository to push to; for example, `https://github.com/williamlu2015/Gii.git`.
-  ** Specifying the remote is optional. If you do specify it, it must be at the end of the arguments list and directly preceded by the "-r" flag.
+    * A `<template>` is a programming language or environment that you want to add GitHub's .gitignore template for; for example, `python`, `jetbrains`, or `macos`.
+    * You may specify an arbitrary number of templates, or none at all. Use space delimiting.
+    * The `<remote>` is the URL of the GitHub repository to push to; for example, `https://github.com/williamlu2015/Gii.git`.
+    * Specifying the remote is optional. If you do specify it, it must be at the end of the arguments list and directly preceded by the "-r" flag.
 
 When it starts running, the script detects if the current working directory already has a ".git" folder, and stops immediately if so. **Future: Make the script detect an existing .gitignore file.**
 
